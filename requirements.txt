@@ -1,0 +1,17 @@
+# DrishtiCV Dependencies
+# Python 3.11 is recommended for full binary wheel compatibility (PyTorch, PySide6, OpenCV).
+
+# GUI Framework
+PySide6>=6.5.0
+
+# Computer Vision & Video Processing
+opencv-python>=4.8.0
+
+# Detection & Tracking Engine (Ultralytics YOLO, ByteTrack, BoT-SORT)
+ultralytics>=8.3.0
+
+# Scientific & Numerical Processing
+numpy>=1.24.0
+
+# Automated Testing
+pytest>=7.4.0

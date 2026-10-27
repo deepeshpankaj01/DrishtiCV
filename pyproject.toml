@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drishticv"
+version = "1.0.0"
+description = "Real-Time Object Detection, Multi-Object Tracking & Scene Analytics"
+authors = [{ name = "Deepesh Kumar Pankaj" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.5.0",
+    "opencv-python>=4.8.0",
+    "ultralytics>=8.3.0",
+    "numpy>=1.24.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
